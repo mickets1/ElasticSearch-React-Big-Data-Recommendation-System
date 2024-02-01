@@ -1,0 +1,39 @@
+{
+  "name": "a1-recommendation-system",
+  "version": "1.0.0",
+  "description": "A1 - Recommendation System",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.lnu.se/2dv515/student/ma225gn/a1-recommendation-system"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@elastic/elasticsearch": "^8.2.0-patch.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.17.3",
+    "express-session": "^1.17.3",
+    "fs-extra": "^10.1.0",
+    "node-fetch": "^3.2.3"
+  },
+  "devDependencies": {
+    "@lnu/eslint-config": "^1.1.5",
+    "eslint": "^8.15.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsdoc": "^39.2.9",
+    "eslint-plugin-n": "^15.2.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.0.0"
+  },
+  "eslintConfig": {
+    "extends": "@lnu"
+  }
+}
